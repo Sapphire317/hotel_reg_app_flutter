@@ -1,0 +1,47 @@
+name: Shrine
+description: Learn the basics of using Material Components by building a simple app with core components.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.15.6
+  shared_preferences: ^0.4.3
+  charts_flutter: ^0.4.0
+  device_info: ^0.2.1
+  flutter_localizations:
+     sdk: flutter
+
+
+
+  cupertino_icons: ^0.1.0
+  shrine_images: 1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+fonts:
+  - family: Rubik
+    fonts:
+      - asset: fonts/Rubik-Regular.ttf
+      - asset: fonts/Rubik-Medium.ttf
+        weight: 500
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/diamond.png
+    - packages/shrine_images/0-0.jpeg
+    - packages/shrine_images/1-0.jpeg
+    - packages/shrine_images/2-0.jpeg
+    - packages/shrine_images/3-0.jpeg
+    - packages/shrine_images/4-0.jpeg
+    - packages/shrine_images/5-0.jpeg
+    - packages/shrine_images/6-0.jpeg
+    - packages/shrine_images/7-0.jpeg
+    - packages/shrine_images/8-0.jpeg
+    - packages/shrine_images/9-0.jpeg
+    - assets/locale/localization_en.json
+    - assets/locale/localization_es.json
+    - assets/locale/localization_kr.json
+
